@@ -1,0 +1,15 @@
+numpy==1.18.2
+torch==1.4.0
+tensorboardX==2.0
+scikit_image==0.16.2
+matplotlib==2.2.3
+tqdm==4.43.0
+easydict==1.9
+Pillow==7.1.2
+opencv_python
+pycocotools
+
+ python run_onnx_inference_vid.py F:/detection-ship/pytorch-YOLOv4/yolov4_1_3_416_416_static.onnx F:/detection-ship/pytorch-YOLOv4/data/sample_video.mp4 F:/detection-ship/pytorch-YOLOv4/data/coco.names F:/detection-ship/pytorch-YOLOv4/output_video.mp4
+  
+
+python run_onnx_inference_vid.py F:/detection-ship/pytorch-YOLOv4/mobilenetv2-7-quantized.onnx F:/detection-ship/pytorch-YOLOv4/data/sample_video.mp4 F:/detection-ship/pytorch-YOLOv4/data/coco.names F:/detection-ship/pytorch-YOLOv4/output_video.mp4
